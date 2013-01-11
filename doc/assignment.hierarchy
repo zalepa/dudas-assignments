@@ -1,0 +1,55 @@
+us-patent-assignments(dtd-version, date-produced)
+	
+	action-keycode (string) (required)
+
+	transaction-date (date) (required)
+
+	patent-assignments (array) (required)
+
+		data-available-code (date) (if no patent-assignment blocks)
+
+		patent-assignment (array) (one or more if no data-available-code)
+
+			assignment-record (required)
+				reel-no (string) (required)
+				frame-no (string) (required)
+				last-update-date (date) (required)
+				purge-indicator (string) (required)
+				recorded-date (date) (required)
+				page-count (number) (optional)
+				conveyance-text (string) (required)
+				correspondent (hash) (required)
+					name(type=legal|natural) (string) (required)
+					address-1 (string) (optional)
+					address-2 (string) (optional)
+					address-3 (string) (optional)
+					address-4 (string) (optional)
+
+			patent-assignors (required) (array)
+
+				patent-assignor (one or more) (hash) (required)
+					name(type=legal|natural) (string) (required)
+					execution-date (date) (optional)
+					date-acknowledged (date) (optional)
+
+			patent-assignees (required) (array)
+
+				patent-assignee (one or more) (hash) (required)
+					name(type=legal|natural) (string) (required)
+					address-1 (string) (optional)
+					address-2 (string) (optional)
+					city (string) (optional)
+					state (string) (optional)
+					country-name (string) (optional)
+					postcode (string) (optional)
+
+			patent-properties  (required) (array)
+
+				patent-property (one or more) (hash) (required)
+					document (hash) (zero or more)
+						country (string) (required)
+						doc-number (string) (required)
+						kind (string) (optional)
+						name(type=natural|legal) (string) (optional)
+					invention-title(id, lang) (html) (optional)
+

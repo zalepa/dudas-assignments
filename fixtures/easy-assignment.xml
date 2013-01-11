@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<us-patent-assignments dtd-version="0.3" date-produced="20031112">
+	
+	<action-key-code>DA</action-key-code>
+	
+	<transaction-date><date>20120622</date></transaction-date>
+
+	<patent-assignments>
+
+		
+		<patent-assignment>
+			<assignment-record>
+				<reel-no>26423</reel-no>
+				<frame-no>144</frame-no>
+				<last-update-date><date>20120622</date></last-update-date>
+				<purge-indicator>N</purge-indicator>
+				<recorded-date><date>20110608</date></recorded-date>
+				<page-count>4</page-count>
+				<correspondent>
+					<name>MICHAEL D. KAMINSKI</name>
+					<address-1>FOLEY &amp; LARDNER LLP</address-1>
+					<address-2>3000 K STREET, N.W.</address-2>
+					<address-3>SUITE 600</address-3>
+					<address-4>WASHINGTON, D.C. 20007-5143</address-4>
+				</correspondent>
+
+				<conveyance-text>ASSIGNMENT OF ASSIGNORS INTEREST (SEE DOCUMENT FOR DETAILS).</conveyance-text>
+			</assignment-record>
+			
+			<patent-assignors>
+				<patent-assignor>
+					<name>WATANABE, KENTARO</name>
+					<execution-date><date>20110607</date></execution-date>
+				</patent-assignor>
+				<patent-assignor>
+					<name>MARUTSUKI, GIICHI</name>
+					<execution-date><date>20110607</date></execution-date>
+				</patent-assignor>
+				<patent-assignor>
+					<name>YAMAKAMI, YUYA</name>
+					<execution-date><date>20110607</date></execution-date>
+				</patent-assignor>
+			</patent-assignors>
+
+			<patent-assignees>
+				<patent-assignee>
+					<name>NICHIA CORPORATION</name>
+					<address-1>491-100, OKA, KAMINAKA-CHO</address-1>
+					<city>TOKUSHIMA, ANAN-SHI, 774-8601</city>
+					<country-name>JAPAN</country-name>
+				</patent-assignee>
+			</patent-assignees>
+
+			<patent-properties>
+				<patent-property>
+					<document-id>
+						<country>US</country>
+						<doc-number>13156150</doc-number>
+						<kind>X0</kind>
+						<date>20110608</date>
+					</document-id>
+					<document-id>
+						<country>US</country>
+						<doc-number>20110303894</doc-number>
+						<kind>A1</kind>
+						<date>20111215</date>
+					</document-id>
+					<invention-title lang="en">SEMICONDUCTOR LIGHT EMITTING ELEMENT AND FABRICATION METHOD</invention-title>
+				</patent-property>
+			</patent-properties>
+		</patent-assignment>
+
+	</patent-assignments>
+</us-patent-assignments>

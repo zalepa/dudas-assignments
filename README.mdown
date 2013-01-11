@@ -1,0 +1,3 @@
+# PTO Assignment Parser
+
+Note this is completely unorganized and not tested at the moment (as you can tell). Eventually this will be rolled into a larger gem (Dudas, named after the great Jon Dudas).
