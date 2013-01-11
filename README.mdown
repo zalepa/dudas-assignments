@@ -1,3 +1,15 @@
 # PTO Assignment Parser
 
 Note this is completely unorganized and not tested at the moment (as you can tell). Eventually this will be rolled into a larger gem (Dudas, named after the great Jon Dudas).
+
+Basically, this just reads in XML files from http://google.com/googlebooks/uspto-patents-assignments.html and spits out an array of hashes representing each assignment. Check out the files in doc/ to see what all this stuff looks like (note the DTD is my shorthand from the existing DTD and won't actually be useable).
+
+## Usage
+
+Download a zip from URL above and unzip it. Load the xml file using nokogiri and then select the 'patent-assignment' elements. Iterate through each element and pass the nokogiri element to `Assignment.new` to bootstrap the object. Note that `Assignment` is lazy, so nothing will happen until you call a method on the object (e.g., `to_hash` which is the most useful).
+
+Optionally `require 'json'` and then convert the hash to JSON
+
+## Implementation Details
+
+Note that the Hash will have nil values so you may want to get rid of those before saving.
